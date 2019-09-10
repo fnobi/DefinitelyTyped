@@ -497,7 +497,7 @@ export type ScatterData = PlotData;
 export interface PlotData {
 	type: 'bar' | 'box' | 'candlestick' | 'choropleth' | 'contour' | 'heatmap' | 'histogram' | 'mesh3d' |
 		'ohlc' | 'parcoords' | 'pie' | 'pointcloud' | 'scatter' | 'scatter3d' | 'scattergeo' | 'scattergl' |
-		'scatterpolar' | 'scatterternary' | 'surface';
+		'scatterpolar' | 'scatterternary' | 'surface' | 'barpolar';
 	x: Datum[] | Datum[][] | TypedArray;
 	y: Datum[] | Datum[][] | TypedArray;
 	z: Datum[] | Datum[][] | Datum[][][] | TypedArray;
